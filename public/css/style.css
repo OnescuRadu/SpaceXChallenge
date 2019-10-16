@@ -42,7 +42,6 @@ hr{
  }
 }
 
-
 .main-title{
     text-align:center;
     padding: 25px;
@@ -66,8 +65,6 @@ hr{
 
 }
 
-
-
 .card a:hover,
 a:visited,
 a:link,
@@ -79,7 +76,6 @@ a:active {
 .card:hover{
     background-color: #2e2c2a;
 }
-
 
 .rocket-text-col{
     margin-left: 25px;

@@ -14,9 +14,7 @@
     <!-- Custom CSS -->
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}"/>
 </head>
-<style>
-   
-</style>
+
 
 <body>
     <h1 class="main-title">SpaceX - ROCKETS</h1>
@@ -26,6 +24,8 @@
         <div id="rockets"></div> 
     </div>
 </body>
+
+
 <script>
     //jQuery function that waits for the document to load before executing the code
     $(function() {

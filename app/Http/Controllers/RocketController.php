@@ -10,12 +10,12 @@ use App\Rocket;
 class RocketController extends Controller
 {
     //TODO function that can be called to consume api based on the given link to avoid duplicate code
-
+    
     //Function that consumes api using GuzzleHttp
     public function getAll(){
         $client = new Client();
         //Create a get request
-        $response = $client->request('GET', 'https://api.spacexdata.com/v3/rockets?filter=rocket_id,rocket_name,first_flight,country,flickr_images');
+        $response = $client->request('GET', 'https://api.spacexdata.com/v3/rockets?filter=rocket_id,rocket_name,country,flickr_images');
         //The body of the get request
         $body = $response->getBody()->getContents();
         //Decode the GET Request body into JSON

@@ -15,14 +15,11 @@
     <link rel="stylesheet" href="{{ asset('/css/style.css') }}"/>
 </head>
 
-<style>
-
-    </style>
 <body>
-
-
 <div id="rocket">
+
 <a href="{{ url('') }}" class="rocket-back"><i class="fas fa-chevron-circle-left fa-2x"></i></a>
+
 <div class="container text-center">
         <div class="row">
             <div class="col mx-auto">
