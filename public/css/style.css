@@ -1,0 +1,102 @@
+body {
+    background-color: #F2F1EF;
+    margin: 15px;
+    color: #F2F1EF;
+}
+
+#rocket{
+    border-radius: 15px;
+    background-color: #413F3D;
+    padding: 10px;
+}
+
+.rocket-text-info{
+    color: #B1A6A4;
+}
+
+hr{
+    border-color: #B1A6A4;
+}
+
+#rocket-img{
+    max-width: 50vw;
+    max-height: auto;
+    margin-bottom: 15px;
+}
+
+.rocket-back,
+.rocket-back:visited,
+.rocket-back:active{
+    color: #F2F1EF;
+}
+
+.rocket-back:hover
+{
+    color: #B1A6A4;
+}
+
+@media (max-width: 767.98px) { 
+    #rocket-img{
+    max-width: 75vw;
+    max-height: auto;
+ }
+}
+
+
+.main-title{
+    text-align:center;
+    padding: 25px;
+    color: #413F3D;
+}
+#searchInput {
+    border-radius: 25px;
+}
+
+.additional-text{
+    color: #B1A6A4;
+}
+
+.main-text{
+    color: #F2F1EF;
+}
+
+.card {
+    border-radius: 25px;
+    background-color: #413F3D;
+
+}
+
+
+
+.card a:hover,
+a:visited,
+a:link,
+a:active {
+    text-decoration: none;
+    color: #F2F1EF;
+}
+
+.card:hover{
+    background-color: #2e2c2a;
+}
+
+
+.rocket-text-col{
+    margin-left: 25px;
+}
+.rocket-image {
+    margin: 15px;
+    width: 150px;
+    height: 150px;
+}
+
+@media (min-width: 992px) {
+    .card {
+        max-width: 75vw;
+    }
+
+    #searchInput {
+        max-width: 75vw;
+    }
+
+}
