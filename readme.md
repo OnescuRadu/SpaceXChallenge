@@ -1,8 +1,9 @@
-<p align="center"><img src="https://res.cloudinary.com/dtfbvvkyp/image/upload/v1566331377/laravel-logolockup-cmyk-red.svg" width="400"></p>
-
 ## SpaceX Developer Challenge
 ## Author: Onescu Radu Mihai
 ## About Project
+
+WebApplication based on Laravel Framework that consumes SpaceX Unofficial API.
+
 
 Requirements for running the project:
 1.	Have a PHP environment installed
