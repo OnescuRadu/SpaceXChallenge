@@ -1,4 +1,4 @@
-## SpaceX - hoej.dk Developer Challenge
+## SpaceX - Developer Challenge
 ## Author: Onescu Radu Mihai
 ## About Project
 
